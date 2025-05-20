@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <string.h>
 using namespace std;
 int main()
 {
@@ -8,7 +9,7 @@ int main()
     char ch[100], *p, *q;
     int n;
     cin >> n;
-    for (int i = 0; i < n; i++)
+    while (n--)
     {
         cin >> ch;
         if (strlen(ch) > 10)
