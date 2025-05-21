@@ -8,7 +8,7 @@ int main()
     int n, f, g = 0;
     cin >> n;
     int a[3];
-    for (int i = 0; i < n; i++)
+    while (n--)
     {
         f = 0;
         for (int i = 0; i < 3; i++)
