@@ -9,9 +9,7 @@ int main()
     cin >> m;
     cin >> n;
     if (m < 2 && n < 2)
-    {
         cout << 0;
-    }
     else if (m == 1 && n >= 2)
     {
         no = n / 2;
