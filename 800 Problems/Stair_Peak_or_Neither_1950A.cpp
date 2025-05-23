@@ -7,7 +7,7 @@ int main()
     cout.tie(0);
     long long t, a, b, c;
     cin >> t;
-    while(t--)
+    while (t--)
     {
         cin >> a >> b >> c;
         if (a < b && b < c)

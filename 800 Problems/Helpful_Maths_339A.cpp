@@ -7,7 +7,7 @@ int main()
     cout.tie(0);
     string s;
     cin >> s;
-    if (s.length() == 1)
+    if (int(s.length()) == 1)
         cout << s;
     else
     {
