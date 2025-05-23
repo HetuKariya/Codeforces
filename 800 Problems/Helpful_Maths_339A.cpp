@@ -11,10 +11,10 @@ int main()
         cout << s;
     else
     {
-        for (int i = 0; i < int(s.length()); i = i + 2)
+        for (int i = 0; i < int(s.length()); i += 2)
         {
             char t;
-            for (int j = i; j < int(s.length()); j = j + 2)
+            for (int j = i; j < int(s.length()); j += 2)
             {
                 if (s[i] > s[j])
                 {
