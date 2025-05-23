@@ -13,16 +13,12 @@ int main()
         if (n == k)
         {
             for (int i = 1; i <= n; i++)
-            {
                 cout << k << " ";
-            }
         }
         else if (k < n && k == 1)
         {
             for (int i = 1; i <= n; i++)
-            {
                 cout << i << " ";
-            }
         }
         else
             cout << -1;
