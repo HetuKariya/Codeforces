@@ -8,7 +8,7 @@ int main()
     int t, a;
     cin >> t;
     string s1, s2 = "codeforces";
-    for (int i = 0; i < t; i++)
+    while (t--)
     {
         a = 0;
         cin >> s1;
