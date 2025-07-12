@@ -3,6 +3,9 @@ using namespace std;
 set<int> isUnion(set<int>, set<int>, set<int>);
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
     int k, l, m, n, d;
     cin >> k >> l >> m >> n >> d;
     set<int> a, b, c, e;
