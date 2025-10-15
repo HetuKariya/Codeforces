@@ -18,4 +18,4 @@ int main()
     else
         cout << 30 + 3 * (maxans - 1);  
     return 0; 
-} 
+}
